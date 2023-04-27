@@ -11,7 +11,7 @@ def hangman(word, arr)
             newArr.push("_")
         end
     end
-    puts newArr.join("")
+    newArr.join("")
 end
 
 hangman("alphabet",["a","h"])

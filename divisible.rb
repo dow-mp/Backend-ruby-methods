@@ -7,7 +7,7 @@ def divisible
             arr.push(num)
         end
     }
-    puts arr.inspect()
+    arr.inspect()
 end
 
 divisible()
