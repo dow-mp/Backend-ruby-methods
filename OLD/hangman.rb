@@ -14,6 +14,6 @@ def hangman(word, arr)
     newArr.join("")
 end
 
-hangman("alphabet",["a","h"])
-hangman("bob",["b"])
-hangman("lincoln",["n", "l"])
+puts hangman("alphabet",["a","h"])
+puts hangman("bob",["b"])
+puts hangman("lincoln",["n", "l"])
